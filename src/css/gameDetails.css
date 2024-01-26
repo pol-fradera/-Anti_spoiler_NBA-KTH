@@ -1,0 +1,101 @@
+.game-details-view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Agency FB", sans-serif;
+}
+
+.game-table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.game-table th {
+    font-size: 20px;
+}
+
+.game-table th, .game-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.game-table th img{
+    vertical-align: middle;
+}
+
+.game-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  th {
+    background-color: #031170;
+    color: white;
+  }
+
+.game-table th:not(:last-child) {
+    border-right: 1px solid white; 
+}
+
+.unHide {
+    max-width: 20px; 
+    height: 20px;
+}
+
+.recommendations {
+    display: flex;
+}
+
+.main-view button {
+    background-color: rgb(149, 162, 255);
+    color: #000000;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.main-view button:hover {
+    background-color: #031170;
+    color: white;
+    transition: box-shadow 0.2s ease;
+    box-shadow: 3px 3px rgb(155, 0, 0);
+}
+
+.Collapsible__trigger {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); /* Shadow for closed state
+    background-color: #f9f9f9; /* Background color when closed */
+    display: block; /* Change to block level */
+}
+
+.Collapsible__trigger.is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.Collapsible__contentOuter {
+    overflow: hidden;
+    transition: height 0.3s ease-in-out; /* Example transition */
+}
+
+
+.Collapsible__contentOuter.is-open {
+    background-color: #f9f9f9; /* Background color when open */
+}
+
+/* Style for the content inner container */
+.Collapsible__contentInner {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.Collapsible__trigger.is-closed {
+    background-color: #ccc; /* Change background when closed */
+}

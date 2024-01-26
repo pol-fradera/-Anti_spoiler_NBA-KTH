@@ -1,0 +1,118 @@
+/* Body styles */
+.login-signup-body {
+    font-family: 'Arial', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    vertical-align: center;
+}
+
+.back-to-home-button {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.back-to-home-button:hover {
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 3px 3px rgb(155, 0, 0);
+}
+
+.registration-success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', 'sans-serif';
+    text-align: center;
+}
+
+.info-message {
+    background-color: lightgreen;
+    border-radius: 10px;
+    box-shadow: 7px 7px rgb(24, 91, 0);
+    padding: 20px;
+}
+
+.container{
+    background-color: #031170;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px rgb(155, 0, 0);
+    width: 350px;
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 50px;
+    color: white;
+}
+
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0003b2;
+    font-family: 'Consolas', 'sans-serif';
+    font-size: 15px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon .icon {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    padding-left: 40px;
+    border: 3px solid rgba(85, 144, 255, 0.65);
+    border-radius: 6px;
+    margin-bottom: 4%;
+}
+
+.container button {
+    background-color: rgb(149, 162, 255);
+    color: #000000;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-family: inherit;
+}
+
+.container button:hover {
+    background-color: #031170;
+    color: white;
+}
+.google-icon {
+    width: 15px; /* Adjust size as needed */
+    height: 15px; /* Adjust size as needed */
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.container a,
+.container p {
+    margin-top: 7%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.error-message {
+    color: #d30000;
+    background-color: #ffabab;
+    padding: 10px;
+    border: 1px solid rgb(183, 0, 0);
+    border-radius: 10px;
+}
