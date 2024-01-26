@@ -11,10 +11,10 @@ recommendations about which parts of the games could be the most interesting to 
 (alternative to highlights which could be too compressed for some user liking)
 
 ## Authors
-Pol Falguera Guillamón 
-Pol Fradera Insa 
-Reinis Freibergs 
-Joan Palomares Solanes 
+Pol Falguera Guillamón  
+Pol Fradera Insa  
+Reinis Freibergs  
+Joan Palomares Solanes   
 
 ## How to deploy
 Using the deployed app: https://anti-spoiler-nba-actionv2.web.app/
