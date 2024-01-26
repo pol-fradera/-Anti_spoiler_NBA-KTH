@@ -10,6 +10,12 @@ There comes in our solution - an app that allows to selectively reveal only the 
 recommendations about which parts of the games could be the most interesting to rewatch.
 (alternative to highlights which could be too compressed for some user liking)
 
+## Authors
+Pol Falguera Guillamón 
+Pol Fradera Insa 
+Reinis Freibergs 
+Joan Palomares Solanes 
+
 ## How to deploy
 Using the deployed app: https://anti-spoiler-nba-actionv2.web.app/
 
